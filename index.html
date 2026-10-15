@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daniel Cardona - Apps</title>
+<meta name="description" content="Apps de Daniel Cardona / Apps by Daniel Cardona.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+  :root {
+    --bg: #f4f1ea; --fg: #14213d; --muted: #55607a; --border: #d8d4c6;
+    --card: #ffffff; --accent: #2444c4; --accent-ink: #ffffff; --mark-bg: #ffd93d;
+    --font-display: "Bricolage Grotesque", -apple-system, "Segoe UI", sans-serif;
+    --font-body: "Atkinson Hyperlegible", -apple-system, "Segoe UI", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #141024; --fg: #eaf0fa; --muted: #a7b0c9; --border: #3a2e5c;
+      --card: #1d1733; --accent: #9db8ff; --accent-ink: #14213d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 16px; line-height: 1.6; }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 40px 20px 72px; }
+  h1 { font-family: var(--font-display); font-weight: 800; font-size: 1.8rem; margin: 0 0 4px; text-wrap: balance; }
+  h2 { font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; margin: 36px 0 12px; }
+  .lead { color: var(--muted); margin: 0 0 8px; }
+  ul.apps { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px 20px; }
+  .card h3 { font-family: var(--font-display); font-size: 1.15rem; margin: 0 0 6px; }
+  .card p { margin: 0 0 10px; }
+  .card .links { margin: 0; display: flex; flex-wrap: wrap; gap: 8px 18px; }
+  a { color: var(--accent); text-decoration-thickness: 1.5px; }
+  a:focus-visible { outline: 3px solid var(--mark-bg); outline-offset: 2px; }
+  footer { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <h1>Daniel Cardona</h1>
+  <p class="lead">Desarrollador de apps para Android.</p>
+  <p class="lead" lang="en">Android app developer.</p>
+
+  <h2>Apps</h2>
+  <ul class="apps">
+    <!-- Para agregar otra app, copia un bloque <li class="card"> / To add another app, copy an <li class="card"> block -->
+    <li class="card">
+      <h3>LexiDrop</h3>
+      <p>Aprende vocabulario con juegos rápidos de palabras. <span lang="en">Learn vocabulary with quick word games.</span></p>
+      <p class="links"><a href="https://danielcardona.github.io/lexidrop-privacy/">Política de privacidad / Privacy policy</a></p>
+    </li>
+  </ul>
+
+  <footer>&copy; Daniel Cardona</footer>
+</main>
+</body>
+</html>
