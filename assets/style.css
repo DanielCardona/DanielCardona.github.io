@@ -54,4 +54,5 @@ code{background:var(--code);padding:1px 6px;border-radius:4px;font-size:.92em}
 .meta{color:var(--muted);font-size:.9rem;margin:0 0 20px}
 footer.site{border-top:1px solid var(--border);color:var(--muted);font-size:.9rem;padding:24px 0 40px}
 footer.site p{margin:0 0 8px}
+.btn.soon{background:transparent;color:var(--muted);border-color:var(--border);cursor:default}
 .links a{margin-right:16px;display:inline-block}
