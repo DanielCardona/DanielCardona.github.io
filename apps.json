@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-29",
+  "suggestionEmail": "unpublishedtech@gmail.com",
+  "apps": [
+    {
+      "id": "lexidrop",
+      "status": "live",
+      "order": 10,
+      "featured": false,
+      "androidPackage": "com.danielcardonaisern.lexidrop",
+      "iosAppStoreId": null,
+      "name": {
+        "en": "LexiDrop"
+      },
+      "tagline": {
+        "ca": "Aprèn vocabulari formant paraules amb lletres que cauen.",
+        "da": "Lær ordforråd ved at danne ord af bogstaver, der falder.",
+        "de": "Vokabeln lernen: bilde Wörter aus fallenden Buchstaben.",
+        "en": "Learn vocabulary by building words from falling letters.",
+        "es": "Aprende vocabulario formando palabras con letras que caen.",
+        "fr": "Apprends du vocabulaire en formant des mots avec les lettres qui tombent.",
+        "it": "Impara il vocabolario formando parole con le lettere che cadono.",
+        "nb": "Lær ordforråd ved å lage ord av bokstaver som faller.",
+        "nl": "Leer woordenschat door woorden te vormen met vallende letters.",
+        "pt": "Aprende vocabulário formando palavras com letras que caem.",
+        "sv": "Lär dig ordförråd genom att bilda ord av fallande bokstäver."
+      },
+      "iconUrl": "https://danielcardona.github.io/assets/apps/lexidrop.png",
+      "iconAsset": "assets/apps/lexidrop.png",
+      "minimumPlatforms": {},
+      "regions": []
+    },
+    {
+      "id": "cv_maker",
+      "status": "live",
+      "order": 20,
+      "featured": false,
+      "androidPackage": "becode.cv_maker",
+      "iosAppStoreId": "1502893742",
+      "name": {
+        "en": "CV Maker"
+      },
+      "tagline": {
+        "ca": "Crea el teu currículum en PDF amb plantilles, foto i codi QR.",
+        "da": "Lav dit CV som PDF med skabeloner, foto og QR-kode.",
+        "de": "Erstelle deinen Lebenslauf als PDF mit Vorlagen, Foto und QR-Code.",
+        "en": "Make your CV as a PDF with templates, photo and QR code.",
+        "es": "Crea tu currículum en PDF con plantillas, foto y código QR.",
+        "fr": "Crée ton CV en PDF avec des modèles, une photo et un code QR.",
+        "it": "Crea il tuo curriculum in PDF con modelli, foto e codice QR.",
+        "nb": "Lag CV-en din som PDF med maler, bilde og QR-kode.",
+        "nl": "Maak je cv als pdf met sjablonen, foto en QR-code.",
+        "pt": "Cria o teu currículo em PDF com modelos, foto e código QR.",
+        "sv": "Skapa ditt CV som PDF med mallar, foto och QR-kod."
+      },
+      "iconUrl": "https://danielcardona.github.io/assets/apps/cv_maker.png",
+      "iconAsset": "assets/apps/cv_maker.png",
+      "minimumPlatforms": {},
+      "regions": []
+    },
+    {
+      "id": "papiers",
+      "status": "live",
+      "order": 30,
+      "featured": false,
+      "androidPackage": "com.unpublishedtech.papiers",
+      "iosAppStoreId": null,
+      "name": {
+        "en": "Papiers"
+      },
+      "tagline": {
+        "ca": "Rebuts de lloguer en PDF per a propietaris a França. Sense compte, sense connexió.",
+        "da": "Lejekvitteringer som PDF til udlejere i Frankrig. Ingen konto, fungerer offline.",
+        "de": "Mietquittungen als PDF für Vermieter in Frankreich. Ohne Konto, offline nutzbar.",
+        "en": "Rent receipts as PDF for landlords in France. No account, works offline.",
+        "es": "Recibos de alquiler en PDF para propietarios en Francia. Sin cuenta, sin conexión.",
+        "fr": "Quittances et reçus de loyer en PDF, en 3 touches. Sans compte, hors ligne.",
+        "it": "Ricevute d'affitto in PDF per i proprietari in Francia. Senza account, offline.",
+        "nb": "Husleiekvitteringer som PDF for utleiere i Frankrike. Ingen konto, fungerer offline.",
+        "nl": "Huurkwitanties als pdf voor verhuurders in Frankrijk. Geen account, ook offline.",
+        "pt": "Recibos de renda em PDF para senhorios em França. Sem conta, funciona offline.",
+        "sv": "Hyreskvitton som PDF för hyresvärdar i Frankrike. Inget konto, fungerar offline."
+      },
+      "iconUrl": "https://danielcardona.github.io/assets/apps/papiers.png",
+      "iconAsset": "assets/apps/papiers.png",
+      "minimumPlatforms": {},
+      "regions": [
+        "FR"
+      ]
+    }
+  ]
+}
